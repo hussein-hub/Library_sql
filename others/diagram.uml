@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="391.0">Driver_Main_sql</node>
+    <node x="0.0" y="535.0">Login.userLogin</node>
+    <node x="416.0" y="535.0">Login.adminLogin</node>
+    <node x="313.0" y="0.0">User</node>
+    <node x="213.0" y="535.0">Connection.connect</node>
+    <node x="188.0" y="413.5">Fine</node>
+    <node x="63.5" y="0.0">Admin</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Driver_Main_sql" target="Admin">
+      <point x="0.0" y="-49.5" />
+      <point x="84.0" y="366.0" />
+      <point x="-63.25" y="122.0" />
+      <point x="-46.25" y="170.5" />
+    </edge>
+    <edge source="Fine" target="Admin">
+      <point x="0.0" y="-27.0" />
+      <point x="228.0" y="366.0" />
+      <point x="202.25" y="366.0" />
+      <point x="46.25" y="170.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="273.0" y="331.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
